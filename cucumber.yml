@@ -1,0 +1,4 @@
+#default: --no-source --color BROWSER=ie --format pretty  --format html --out results.html --format json --out reports.json
+#default: --no-source --color ARCHIVE_RESULTS=yes BROWSER=ie  --format pretty  --format html --out results.html --format json --out reports.json
+
+default: --no-source --color ScreenShot=yes ARCHIVE_RESULTS=yes Email_Test_Results=yes BROWSER=firefox --format pretty  --format html --out results.html --format json --out reports.json
